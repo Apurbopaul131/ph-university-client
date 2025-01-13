@@ -1,0 +1,22 @@
+import { ReactNode } from "react";
+
+export type TRouteItem = {
+  path: string;
+  element: ReactNode;
+};
+export type TSidebarItem = {
+  key: string;
+  label: ReactNode;
+  children?: TSidebarItem[];
+};
+export type TChildren = {
+  name: string;
+  path: string;
+  element: ReactNode;
+};
+export type TUserPath = {
+  name: string;
+  path?: string;
+  element?: ReactNode;
+  children?: TChildren[];
+};
