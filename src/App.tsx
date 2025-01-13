@@ -1,9 +1,9 @@
+import MainLayout from "./components/layout/MainLayout";
+import "./index.css";
 function App() {
   return (
     <>
-      <div>
-        <h1>Progamming hero university</h1>
-      </div>
+      <MainLayout />
     </>
   );
 }
